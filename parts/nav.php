@@ -7,9 +7,9 @@
         if($_SESSION["connected"]){?>
             <a href="./disconnect.php">Disconnect</a><?php
         }
-        else{?>
-            <a href="./index.php">Login</a><?php
-        }
-    } ?>
+    }
+    else{?>
+        <a href="./index.php">Login</a><?php
+    }?>
 
 </div>
