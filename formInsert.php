@@ -41,6 +41,13 @@
                     <input type="number" name="height_difference" id="height_difference" required>
                 </div>
                 <div>
+                    <label for="avalide">Avalide</label>
+                    <select name="avalide" id="avalide">
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                    </select>
+                </div>
+                <div>
                     <input type="submit">
                 </div>
             </form>
