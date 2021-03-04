@@ -10,6 +10,5 @@ $users = $userManager->getUsers();
 
 foreach ($users as $user){
     $userManager->passAsh($user);
-    echo $user->getPass() . "<br>";
-    echo "ok";
+    echo $user->getName() . " " . $user->getPass() . "<br>";
 }
