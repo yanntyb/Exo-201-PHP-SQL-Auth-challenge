@@ -95,8 +95,8 @@
             <div id="center">
                 <div id="suppress">Suppress</div>
             </div>
-            <script src="modifie.js"></script>
-            <script src="delete.js"></script><?php
+            <script src="js/modifie.js"></script>
+            <script src="js/delete.js"></script><?php
             }
         }?>
 </body>
