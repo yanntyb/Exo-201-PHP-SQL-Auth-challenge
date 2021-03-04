@@ -9,10 +9,12 @@ for(let button of buttons){
         if(tabSupp.includes(id)){
             tabSupp.splice(tabSupp.indexOf(id), 1);
             elem.style.color = "black";
+            elem.parentNode.parentNode.style.backgroundColor = "white";
         }
         else{
             tabSupp.push(id);
             elem.style.color = "red";
+            elem.parentNode.parentNode.style.backgroundColor = "grey";
         }
     })
 }
